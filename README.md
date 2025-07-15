@@ -47,7 +47,7 @@ In addition, we observe strongly low-rank characteristics in cross-model perform
     ![](./figs/prediction.PNG)
 
     - The performance matrices from our paper are provided in `performance_matrices`.
-    - Example: python `./low_rank_prediction/matrix_completion.py --missing_rate 0.5 --rank 1`
+    - Example: `python ./low_rank_prediction/matrix_completion.py --missing_rate 0.5 --rank 1`
 
 
 ## **Citation**

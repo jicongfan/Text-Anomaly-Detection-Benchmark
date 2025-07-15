@@ -1,0 +1,10 @@
+{
+    "learning_rate": 1e-4,
+    "n_epochs": 200, 
+    "hidden_neurons": [4096, 2048, 2048, 1024],
+    "hidden_activation": "leaky_relu",
+    "gamma": 0.01,
+    "lamb": 0.1,
+    "k": 10,
+    "device": "cuda:3"
+}

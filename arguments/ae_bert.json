@@ -1,0 +1,10 @@
+{
+    "preprocessing": false,
+    "lr": 1e-4,
+    "epoch_num": 300,
+    "batch_size": 1000,
+    "optimizer_name": "adam",
+    "hidden_activation_name": "tanh",
+    "hidden_neuron_list":[1024, 512, 512, 256],
+    "device": "cuda"
+}

@@ -1,0 +1,14 @@
+{
+    "preprocessing": false,
+    "lr": 1e-4,
+    "epochs": 300,
+    "batch_size": 1000,
+    "optimizer": "adam",
+    "hidden_activation": "leaky_relu",
+    "hidden_neurons": [4096, 2048, 2048, 1024],
+    "output_activation": null,
+    "validation_size": 0.0,
+    "dropout_rate": 0.0,
+    "l2_regularizer": 0.01,
+    "use_ae": true
+}

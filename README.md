@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=Python&logoColor=ffffff)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-# Text-ADBench (Text Anomaly Detecion Benchmark based on LLMs Embedding)
+# Text-ADBench ([Text Anomaly Detecion Benchmark based on LLMs Embedding](https://arxiv.org/abs/2507.12295))
 
 ![](./figs/flowchart.PNG)
 
@@ -51,7 +51,22 @@ In addition, we observe strongly low-rank characteristics in cross-model perform
 
 
 ## **Citation**
-1. The datasets utilized in this repository are publicly accessiable. If you employ any of them from the repository, please ensure to cite the original papers or resources accordingly.
+
+1. Our Work
+
+    ```
+    @misc{xiao2025textadbenchtextanomalydetection,
+      title={Text-ADBench: Text Anomaly Detection Benchmark based on LLMs Embedding}, 
+      author={Feng Xiao and Jicong Fan},
+      year={2025},
+      eprint={2507.12295},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.12295},
+    }
+    ```
+
+2. The datasets utilized in this repository are publicly accessiable. If you employ any of them from the repository, please ensure to cite the original papers or resources accordingly.
 
     ```
     http://qwone.com/~jason/20Newsgroups/
@@ -71,7 +86,7 @@ In addition, we observe strongly low-rank characteristics in cross-model perform
     https://huggingface.co/datasets/fancyzhx/dbpedia_14
     ```
 
-2. Building upon Llama-2-7B-chat, Mistral-7B-Instruct-v0.2 and Llama-3-8B-Instruct, we employ their fine-tuned versions tailored for text embedding from [LLM2Vec](https://github.com/McGill-NLP/llm2vec/tree/main). Please ensure to cite the original papers if you use the embeddings.
+3. Building upon Llama-2-7B-chat, Mistral-7B-Instruct-v0.2 and Llama-3-8B-Instruct, we employ their fine-tuned versions tailored for text embedding from [LLM2Vec](https://github.com/McGill-NLP/llm2vec/tree/main). Please ensure to cite the original papers if you use the embeddings.
 
     ### *Llama-2-7B-chat*
     ```
